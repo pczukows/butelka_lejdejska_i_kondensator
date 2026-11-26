@@ -156,7 +156,7 @@ def show_legend():
     st.markdown("🔴 **ładunek dodatni** &nbsp;&nbsp; 🔵 **elektron / ładunek ujemny** &nbsp;&nbsp; 🔵−🔴 **dipol dielektryka**")
 
 st.title("⚡ Butelka lejdejska i kondensator")
-st.markdown("#### Interaktywny model dla studentów I roku")
+st.markdown("#### Interaktywny model dla studentów II roku")
 with st.sidebar:
     st.header("Ustawienia modelu")
     mode=st.selectbox("Układ",["Butelka lejdejska","Kondensator płaski, napięcie stałe","Kondensator płaski, napięcie przemienne"],help="Wybierz historyczny kondensator albo kondensator płaski zasilany DC lub AC.")
